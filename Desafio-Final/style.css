@@ -1,0 +1,39 @@
+body {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.titulo-moda {
+  font-size: 1.8rem;
+}
+
+tr.cabecalho-moda, tr.cabecalho-casa {
+  
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+tr.cabecalho-moda {
+  background-color: #BB86FC;
+}
+
+tr.cabecalho-casa {
+  background-color: #00C4B4;
+}
+
+tr.cabecalho-moda th, 
+tr.produtos-moda td, 
+tr.cabecalho-casa th,
+tr.produtos-casa td{
+  padding: 10px;
+}
+
+tr.produtos-moda, tr.produtos-casa td {
+  background-color: #424250;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
